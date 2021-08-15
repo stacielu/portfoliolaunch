@@ -26,70 +26,7 @@
 	<script type="text/javascript" src="js/masonry/masonry.js"></script> 
 	<script type="text/javascript" src="js/wow.min.js"></script>	
 
-	<script type="text/javascript">		
-		$(window).load(function(){
-			// Animate loader off screen
-			$(".se-pre-con").fadeOut("slow");
-		});
-
-		$(document).ready(function() {
-			//NAV收合
-			$('.RWD').hide();           
-            $(".btnNav").click(function(){
-                $('.RWD').slideToggle();
-            });
-
-			/* fixed ie11 bug，待影片載入完成後再執行masonry */
-		  	waitForvidLoad($('video'), function(){
-				$('.waterfallgrid').masonry({
-					itemSelector: '.gridItem'
-				});
-			});
-
-			$('#fullpage').fullpage({
-				verticalCentered: true,
-				anchors: ['0Page', '1Page', '2Page', '3Page'],
-				sectionsColor: ['#fff', '#fff', '#fff6e5', '#272f3f'],
-				navigation: true,
-				navigationPosition: 'right',
-				navigationTooltips: ['', '', '', ''],
-				responsiveWidth: 2000,
-				afterResponsive: function(isResponsive){					
-				}
-			});			
-
-			$('.fancybox').fancybox({
-				loop : true,
-				buttons : [
-					'thumbs',
-				    'zoom',
-				    'close'
-				],
-				thumbs : {			        
-			        axis : 'x' // Vertical (y) or horizontal (x) 
-			    }
-			});
-
-			new WOW().init();
-		});
-
-		/* if no videos i.e. mobile mode only gifs and jpgs then call callback else masonry breaks.*/
-		function waitForvidLoad(vids, callback){
-	        if(vids.length === 0){
-	            callback();
-	        }
-		    var vidsLoaded = 0;
-		    $.each(vids,function(key,v){
-			    v.onloadeddata = function(){
-					vidsLoaded++;
-					if (vids.length === vidsLoaded){
-					callback();
-					}
-			    }
-		    })
-		}
 		
-	</script>	
 </head>
 
 <body id="stacieluPortfoilo">
@@ -258,6 +195,69 @@
 
 <!-- GoToTop -->
 <a class="btnTop" href="#0Page"></a>
+<script type="text/javascript">		
+		$(window).load(function(){
+			// Animate loader off screen
+			$(".se-pre-con").fadeOut("slow");
+		});
 
+		$(document).ready(function() {
+			//NAV收合
+			$('.RWD').hide();           
+            $(".btnNav").click(function(){
+                $('.RWD').slideToggle();
+            });
+
+			/* fixed ie11 bug，待影片載入完成後再執行masonry */
+		  	waitForvidLoad($('video'), function(){
+				$('.waterfallgrid').masonry({
+					itemSelector: '.gridItem'
+				});
+			});
+
+			$('#fullpage').fullpage({
+				verticalCentered: true,
+				anchors: ['0Page', '1Page', '2Page', '3Page'],
+				sectionsColor: ['#fff', '#fff', '#fff6e5', '#272f3f'],
+				navigation: true,
+				navigationPosition: 'right',
+				navigationTooltips: ['', '', '', ''],
+				responsiveWidth: 2000,
+				afterResponsive: function(isResponsive){					
+				}
+			});			
+
+			$('.fancybox').fancybox({
+				loop : true,
+				buttons : [
+					'thumbs',
+				    'zoom',
+				    'close'
+				],
+				thumbs : {			        
+			        axis : 'x' // Vertical (y) or horizontal (x) 
+			    }
+			});
+
+			new WOW().init();
+		});
+
+		/* if no videos i.e. mobile mode only gifs and jpgs then call callback else masonry breaks.*/
+		function waitForvidLoad(vids, callback){
+	        if(vids.length === 0){
+	            callback();
+	        }
+		    var vidsLoaded = 0;
+		    $.each(vids,function(key,v){
+			    v.onloadeddata = function(){
+					vidsLoaded++;
+					if (vids.length === vidsLoaded){
+					callback();
+					}
+			    }
+		    })
+		}
+		
+	</script>
 </body>
 </html>
