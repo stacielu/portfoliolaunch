@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="64px" height="64px" viewBox="0 0 64 64" enable-background="new 0 0 64 64" xml:space="preserve">
+<circle fill="#67CE8D" cx="53.76" cy="32" r="0.034">
+<animate  style="animation-play-state: running; animation-delay: 0s;" fill="remove" restart="always" additive="replace" accumulate="none" begin="0s" repeatCount="indefinite" dur="1s" calcMode="spline" keySplines="0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.25;0.5;0.75;1" values="10;0;0;0;0" attributeName="r">
+	</animate>
+<animate  style="animation-play-state: running; animation-delay: 0s;" fill="remove" restart="always" additive="replace" accumulate="none" begin="0s" repeatCount="indefinite" dur="1s" calcMode="spline" keySplines="0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.25;0.5;0.75;1" values="84;84;84;84;84" attributeName="cx">
+	</animate>
+</circle>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="47.2451" y1="32" x2="60.0449" y2="32">
+	<stop  offset="0" style="stop-color:#98D36C"/>
+	<stop  offset="1" style="stop-color:#34A180"/>
+</linearGradient>
+<circle fill="url(#SVGID_1_)" cx="53.645" cy="32" r="6.4">
+<animate  style="animation-play-state: running; animation-delay: 0s;" fill="remove" restart="always" additive="replace" accumulate="none" begin="-0.5s" repeatCount="indefinite" dur="1s" calcMode="spline" keySplines="0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.25;0.5;0.75;1" values="0;10;10;10;0" attributeName="r">
+	</animate>
+<animate  style="animation-play-state: running; animation-delay: 0s;" fill="remove" restart="always" additive="replace" accumulate="none" begin="-0.5s" repeatCount="indefinite" dur="1s" calcMode="spline" keySplines="0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.25;0.5;0.75;1" values="16;16;50;84;84" attributeName="cx">
+	</animate>
+</circle>
+<linearGradient id="SVGID_2_" gradientUnits="userSpaceOnUse" x1="25.4854" y1="32" x2="38.2852" y2="32">
+	<stop  offset="0" style="stop-color:#98D36C"/>
+	<stop  offset="1" style="stop-color:#34A180"/>
+</linearGradient>
+<circle fill="url(#SVGID_2_)" cx="31.885" cy="32" r="6.4">
+<animate  style="animation-play-state: running; animation-delay: 0s;" fill="remove" restart="always" additive="replace" accumulate="none" begin="-0.25s" repeatCount="indefinite" dur="1s" calcMode="spline" keySplines="0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.25;0.5;0.75;1" values="0;10;10;10;0" attributeName="r">
+	</animate>
+<animate  style="animation-play-state: running; animation-delay: 0s;" fill="remove" restart="always" additive="replace" accumulate="none" begin="-0.25s" repeatCount="indefinite" dur="1s" calcMode="spline" keySplines="0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.25;0.5;0.75;1" values="16;16;50;84;84" attributeName="cx">
+	</animate>
+</circle>
+<linearGradient id="SVGID_3_" gradientUnits="userSpaceOnUse" x1="3.874" y1="32" x2="16.6064" y2="32">
+	<stop  offset="0" style="stop-color:#98D36C"/>
+	<stop  offset="1" style="stop-color:#34A180"/>
+</linearGradient>
+<circle fill="url(#SVGID_3_)" cx="10.24" cy="32" r="6.366">
+<animate  style="animation-play-state: running; animation-delay: 0s;" fill="remove" restart="always" additive="replace" accumulate="none" begin="0s" repeatCount="indefinite" dur="1s" calcMode="spline" keySplines="0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.25;0.5;0.75;1" values="0;10;10;10;0" attributeName="r">
+	</animate>
+<animate  style="animation-play-state: running; animation-delay: 0s;" fill="remove" restart="always" additive="replace" accumulate="none" begin="0s" repeatCount="indefinite" dur="1s" calcMode="spline" keySplines="0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.25;0.5;0.75;1" values="16;16;50;84;84" attributeName="cx">
+	</animate>
+</circle>
+<circle fill="#67CE8D" cx="10.24" cy="32" r="0">
+<animate  style="animation-play-state: running; animation-delay: 0s;" fill="remove" restart="always" additive="replace" accumulate="none" begin="0s" repeatCount="indefinite" dur="1s" calcMode="spline" keySplines="0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.25;0.5;0.75;1" values="0;0;10;10;10" attributeName="r">
+	</animate>
+<animate  style="animation-play-state: running; animation-delay: 0s;" fill="remove" restart="always" additive="replace" accumulate="none" begin="0s" repeatCount="indefinite" dur="1s" calcMode="spline" keySplines="0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1;0 0.5 0.5 1" keyTimes="0;0.25;0.5;0.75;1" values="16;16;16;50;84" attributeName="cx">
+	</animate>
+</circle>
+</svg>
