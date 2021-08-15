@@ -48,7 +48,8 @@
 			<h2 class="sectionTitle wow bounceInLeft">				
 				<div class="sectionMainTitle"><i class="fas fa-briefcase bounceEffect"></i> 作品介紹</div>
 			</h2>
-			<div class="waterfallgrid wow bounceInRight">				
+			<div class="waterfallgrid wow bounceInRight">
+				<div class="grid-sizer"></div>
 				<div class="gridItem wow bounceIn">	
 					<a class="fancybox" href="images/work/graphicDesign/01.jpg" data-fancybox="graphicDesign"><img src="images/work/graphicDesign/01.jpg"></a>
 					<a class="fancybox hide" href="images/work/graphicDesign/02.jpg" data-fancybox="graphicDesign"></a>
@@ -257,6 +258,16 @@
 			    }
 		    })
 		}
+		$(window).load(function(){
+			var $grid = $('.waterfallgrid');
+			$grid.isotope({
+			itemSelector: '.gridItem',
+			percentPosition: true,
+			masonry: {
+			columnWidth: '.grid-sizer',
+			gutter: 5
+			}
+		});
 		
 	</script>
 </body>
