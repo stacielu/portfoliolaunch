@@ -49,7 +49,6 @@
 				<div class="sectionMainTitle"><i class="fas fa-briefcase bounceEffect"></i> 作品介紹</div>
 			</h2>
 			<div class="waterfallgrid wow bounceInRight">
-				<div class="grid-sizer"></div>
 				<div class="gridItem wow bounceIn">	
 					<a class="fancybox" href="images/work/graphicDesign/01.jpg" data-fancybox="graphicDesign"><img src="images/work/graphicDesign/01.jpg"></a>
 					<a class="fancybox hide" href="images/work/graphicDesign/02.jpg" data-fancybox="graphicDesign"></a>
@@ -196,6 +195,7 @@
 
 <!-- GoToTop -->
 <a class="btnTop" href="#0Page"></a>
+
 <script type="text/javascript">		
 		$(window).load(function(){
 			// Animate loader off screen
@@ -207,14 +207,7 @@
 			$('.RWD').hide();           
             $(".btnNav").click(function(){
                 $('.RWD').slideToggle();
-            });
-
-			/* fixed ie11 bug，待影片載入完成後再執行masonry */
-		  	waitForvidLoad($('video'), function(){
-				$('.waterfallgrid').masonry({
-					itemSelector: '.gridItem'
-				});
-			});
+            });			
 
 			$('#fullpage').fullpage({
 				verticalCentered: true,
@@ -241,34 +234,15 @@
 			});
 
 			new WOW().init();
-		});
 
-		/* if no videos i.e. mobile mode only gifs and jpgs then call callback else masonry breaks.*/
-		function waitForvidLoad(vids, callback){
-	        if(vids.length === 0){
-	            callback();
-	        }
-		    var vidsLoaded = 0;
-		    $.each(vids,function(key,v){
-			    v.onloadeddata = function(){
-					vidsLoaded++;
-					if (vids.length === vidsLoaded){
-					callback();
-					}
-			    }
-		    })
-		}
-		$(window).load(function(){
-			var $grid = $('.waterfallgrid');
-			$grid.isotope({
-			itemSelector: '.gridItem',
-			percentPosition: true,
-			masonry: {
-			columnWidth: '.grid-sizer',
-			gutter: 5
-			}
+			$(window).load(function() {
+				$('.waterfallgrid').masonry({
+				    itemSelector: '.gridItem',
+				    columnWidth: 10,
+				});
+			});
 		});
-		
 	</script>
+
 </body>
 </html>
